@@ -1,0 +1,70 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Common Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* =========================
+    Header Section Styles 
+============================*/
+
+.header-banner {
+    background-color: #161616;
+    display: flex;
+    border-radius: 30px;
+}
+
+.banner-titles {
+    margin: 100px;
+    width: 40%;
+    color: #ffffff;
+}
+
+.banner-titles h1 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin-top: 0;
+}
+
+/* .banner-titles p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+} */
+
+.banner-titles button {
+    background-color: #DD0000;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.banner-titles button i {
+    position: relative;
+    transition: transform .5s ease;
+
+}
+
+.banner-titles button:hover i {
+    transform: translate(10px);
+}
+
+.banner-image img {
+    width: 580px;
+    height: 600px;
+    position: relative;
+    top: 60px;
+}
